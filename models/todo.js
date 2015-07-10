@@ -1,10 +1,7 @@
-
-
-
 // define model =================
 
 var connect = require('../dbURL/dbURL');
-var mongoose = require('mongoose');                     // mongoose for mongodb
+var mongoose = require('mongoose');        // mongoose for mongodb
 
 connect(mongoose);
 

@@ -1,10 +1,7 @@
-                              // create our app w/ express
 module.exports = function(app){
 // routes ======================================================================
 
-
   var Todo = require('../models/todo');
-
 
   // api ---------------------------------------------------------------------
   // get all todos
