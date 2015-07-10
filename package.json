@@ -1,0 +1,19 @@
+{
+  "name": "todo-tutorial",
+  "version": "0.1.0",
+  "description": "Simple to-do application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "SMP",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "method-override": "^2.3.3",
+    "mongoose": "^4.0.6",
+    "morgan": "^1.6.1"
+  }
+}
