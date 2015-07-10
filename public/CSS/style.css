@@ -1,7 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 h1 {
-  color: red; }
+  color: #A6E3A8;
+  font-family: 'Montserrat'; }
+
+label {
+  font-family: sans-serif; }
+
+input[type=text] {
+  height: 2em; }
 
 button {
-  background-color: blue; }
+  background-color: #D5F8B4; }
 
 /*# sourceMappingURL=style.css.map */
