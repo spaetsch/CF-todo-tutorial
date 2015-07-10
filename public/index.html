@@ -9,8 +9,6 @@
 
     <title>Node/Angular Todo App</title>
 
-    <!-- SCROLLS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
     <style>
         html                    { overflow-y:scroll; }
         body                    { padding-top:50px; }
@@ -28,13 +26,13 @@
     <div class="container">
 
         <!-- HEADER AND TODO COUNT -->
-        <div class="jumbotron text-center">
+        <div>
             <h1>I'm a Todo-aholic <span class="label label-info">{{ todos.length }}</span></h1>
         </div>
 
         <!-- TODO LIST -->
         <div id="todo-list" class="row">
-            <div class="col-sm-4 col-sm-offset-4">
+            <div>
 
                 <!-- LOOP OVER THE TODOS IN $scope.todos -->
                 <div class="checkbox" ng-repeat="todo in todos">
@@ -48,7 +46,7 @@
 
         <!-- FORM TO CREATE TODOS -->
         <div id="todo-form" class="row">
-            <div class="col-sm-8 col-sm-offset-2 text-center">
+            <div>
                 <form>
                     <div class="form-group">
 
