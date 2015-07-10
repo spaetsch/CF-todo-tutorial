@@ -11,7 +11,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!-- load jquery -->
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script><!-- load angular -->
   <script src="core.js"></script>
-
+  <link rel=stylesheet href="css/style.css">
 </head>
 <!-- SET THE CONTROLLER AND GET ALL TODOS -->
 <body ng-controller="mainController">
@@ -40,11 +40,9 @@
       <div>
         <form>
           <div>
-
             <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
-            <input type="text" placeholder="I want to buy a puppy that will love me forever" ng-model="formData.text">
+            <input type="text" placeholder="Snacks. I need snacks." ng-model="formData.text">
           </div>
-
           <!-- createToDo() WILL CREATE NEW TODOS -->
           <button type="submit" ng-click="createTodo()">Add</button>
         </form>
