@@ -1,11 +1,11 @@
                               // create our app w/ express
-
+module.exports = function(app){
 // routes ======================================================================
-module.exports = {
 
-var express  = require('express');
 
-var app      = express();
+  var Todo = require('../models/todo');
+
+
   // api ---------------------------------------------------------------------
   // get all todos
   app.get('/api/todos', function(req, res) {
@@ -58,4 +58,5 @@ var app      = express();
       });
     });
   });
-};
+
+}
