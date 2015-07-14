@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+$limeice:#D5F8B4;
+$seaglass: #A6E3A8;
+$greengray: #8A9A85;
+
+h1 {
+  color:$seaglass;
+  font-family:'Montserrat';
+}
+label {
+  font-family:sans-serif;
+}
+input[type=text] {
+  height:2em;
+}
+button {
+  background-color:$limeice;
+}

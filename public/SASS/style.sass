@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700)
+
+$limeice: #d5f8b4
+$seaglass: #a6e3a8
+$greengray: #8a9a85
+$paleplum: #7E566B
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+.container
+  +border-radius(2em)
+  background-color: $paleplum
+  width: 50%
+
+body
+  padding: 2em
+  background-color: $greengray
+
+#todo-list,
+#todo-form
+  padding: 1em
+
+h1
+  color: $seaglass
+  font-family: 'Montserrat'
+  padding: 1em 0 0 1em
+
+label
+  font-family: sans-serif
+
+input[type=text]
+  height: 2em
+
+button
+  background-color: $seaglass
+  &:hover
+    background-color: $limeice
